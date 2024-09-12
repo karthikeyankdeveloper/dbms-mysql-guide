@@ -1,6 +1,6 @@
 ```
 	 mysql
-	 ├── /01-mysql-setup
+	 ├── /01-Refer readme file
 	 ├── /02-sql-basics
 	 ├── /03-advanced-sql
 	 ├── /04-stored-procedures-functions
@@ -11,3 +11,7 @@
 	 └── /09-security
 
 ```
+
+#SetUp VsCode extension
+1. Install SQLTools - https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools
+2. Driver for Mysql - https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-mysql
