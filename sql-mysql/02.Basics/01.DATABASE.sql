@@ -7,11 +7,11 @@ CREATE SCHEMA IF NOT EXISTS incvo;
 SHOW DATABASES;
 
 
--- @block Show created database
+-- @block SHOW CREATED DATABASE
 SHOW CREATE DATABASE incvo;
 
 
--- @block VIEW ALL DATABASE
+-- @block DELETE DATABASE
 DROP SCHEMA IF EXISTS incvo;
 DROP DATABASE IF EXISTS incvo;
 
@@ -20,7 +20,7 @@ DROP DATABASE IF EXISTS incvo;
 USE incvo;
 
 
--- @block it shows all charset
+-- @block VIEW ALL CHARSET
 SHOW CHARACTER SET;
 
 
