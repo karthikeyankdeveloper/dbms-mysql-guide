@@ -1,0 +1,21 @@
+### SQL Data Types
+
+- **INT**: Integer data type, used to store whole numbers.
+- **VARCHAR(n)**: Variable-length string, where `n` specifies the maximum number of characters.
+- **CHAR(n)**: Fixed-length string, where `n` specifies the exact number of characters.
+- **TEXT**: Variable-length string, used for larger text fields.
+- **DATE**: Date data type, stores dates in the format `YYYY-MM-DD`.
+- **TIME**: Time data type, stores time in the format `HH:MI:SS`.
+- **DATETIME**: Stores both date and time in the format `YYYY-MM-DD HH:MI:SS`.
+- **TIMESTAMP**: Stores date and time, often used for tracking record creation or modification.
+- **DECIMAL(p, s)**: Exact numeric data type, where `p` is the precision (total digits) and `s` is the scale (digits after the decimal point).
+- **FLOAT**: Approximate numeric data type for floating-point numbers.
+- **DOUBLE**: Double-precision floating-point number.
+- **BIT**: Boolean data type, stores a binary value (0 or 1).
+- **BOOLEAN**: Typically an alias for `BIT`, used to represent `TRUE` or `FALSE`.
+- **BLOB**: Binary Large Object, used for storing binary data such as images or files.
+- **ENUM**: String object that can have one of several values defined in a list.
+- **SET**: Similar to `ENUM`, but can hold multiple values from the list.
+- **JSON**: Stores JSON-formatted data.
+- **UUID**: Universally Unique Identifier, stores a 128-bit value.
+- **SERIAL**: An auto-incrementing integer, commonly used for primary keys.
